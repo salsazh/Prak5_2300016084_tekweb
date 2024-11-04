@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="output.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <script src="./src/script.js"></script>
+</head>
+<body>
+  <!-- awalan-->
+  <nav class="bg-white fixed top-0 left-0 md:left-10 w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <img src="./src/image/Remindme Navbar.png" alt="Remind Me Logo" class="h-10 w-auto" />
+        </div>
+
+        <div class="hidden md:flex space-x-4 flex-1 ml-28 ">
+          <a href="#Home" class="text-lg text-gray-600 hover:text-blue-600 px-5">Home</a>
+          <a href="#Features" class="text-lg text-gray-600 hover:text-blue-600 px-5">Features</a>
+          <a href="#About us" class="text-lg text-gray-600 hover:text-blue-600 px-5">About us</a>
+        </div>
+  
+        <div class="hidden md:flex items-center flex-1 pr-4 justify-end">
+          <a href="#AboutApp" class="hidden md:block border border-blue-500 text-blue-500 px-4 py-1 rounded-full hover:bg-blue-100">About App</a>
+        </div>
+
+        <div class="md:hidden block  items-center">
+          <button id="garistiga-btn" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div id="menu" class="hidden md:hidden">
+        <div class="pt-4 pb-3 space-y-1">
+          <a href="#Home" class="block text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">Home</a>
+          <a href="#Features" class="block text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">Features</a>
+          <a href="#About us" class="block text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">About us</a>
+          <a href="#AboutApp" class="block text-gray-600 border border-blue-500 hover:text-blue-500 px-3 py-1 rounded-full hover:bg-blue-100 w-1/2 md:w-auto text-center">About App</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+   <section id="home" class="pt-30">
+       <div class="flex flex-wrap ml-5">
+         <div class="w-full self-center px-0 md:px-32 lg:w-1/2">
+           <h1 class="mt-24 text-6xl font-bold leading-snug mb-10 ">Manage Schedule and Task Easy</h1>
+           <p class="text-2xl text-gray-500 mb-10 leading-relaxed lg:text-xl">Create and organize schedule and task deadline become better, easy manage and certainly no longer lagging behind schedule of activities and task</p>
+           <a href="#" class="text-base text-white bg-blue-600 py-4 px-9 rounded-full hover:bg-blue-400 inline-block">Download App</a>
+         </div>
+         <div class="w-full self-center px-0 lg:w-1/2 flex justify-end">
+           <div class="relative mt-10 lg:mt-10 lg:right-0">
+             <img src="./src/image/Hero Image.png" alt="Utama" class="w-full max-w-2xl mb-10" />
+           </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="grid grid-cols-1 md:grid-cols-3 gap-8 py-12 px-8 lg:px-32">
+      <div class="flex flex-col items-center md:items-start text-center md:text-left w-full lg:w-3/4">
+        <img src="./src/image/uim_schedule.png" alt="icon" class="w-12 h-12 mb-4 bg-blue-100 rounded-full p-2 mx-auto md:mx-0">
+        <h2 class="font-bold text-lg mb-3">Set a better deadline tasks</h2>
+        <p class=" text-gray-500 leading-relaxed">You can make your duty deadlines better and more orderly</p>
+      </div>
+
+      <div class="flex flex-col items-center md:items-start text-center md:text-left w-full lg:w-3/4">
+        <img src="./src/image/uim_layer-group.png" alt="icon" class="w-12 h-12  mb-4 bg-blue-100 rounded-full p-2 mx-auto md:mx-0">
+        <h2 class="font-bold text-lg mb-3">Manage the tasks so easily</h2>
+        <p class="text-gray-500 leading-relaxed">You can manage the deadlines and the schedule becomes easy</p>
+      </div>
+      
+      <div class="flex flex-col items-center md:items-start text-center md:text-left w-full lg:w-3/4">
+        <img src="./src/image/ri_notification-fill.png" alt="icon" class="w-12 h-12 mb-4 bg-blue-100 rounded-full p-2 mx-auto md:mx-0">
+        <h2 class="font-bold text-lg mb-3">Wouldn’t miss notifications</h2>
+        <p class="text-gray-500 leading-relaxed">Of course you will always get the tasks and schedule notifications</p>
+      </div>
+   </section>
+
+   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 py-12 px-0 items-center">
+      <div class="flex justify-start w-full">
+        <img src="./src/image/Image.png" alt="icon" class="w-full max-w-2xl rounded-lg bg-blue-50">
+      </div>
+
+      <div class="w-full px-8 md:px-20 mb-4 self-center items-center">
+        <h2 class="font-bold text-4xl mb-4">Set up task and schedule with a best features</h2>
+        <p class="text-gray-500 leading-relaxed">The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
+      </div>
+   </section>
+
+   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 py-12 px-0 items-center">
+      <div class="order-2 md:order-1 px-8 md:px-32 mb-4 self-center items-center">
+        <h2 class="font-bold text-4xl mb-4">Get the highest priority application notification</h2>
+        <p class="text-gray-500 leading-relaxed">The best feature makes you better, with the latest technology to meet your needs. Of course, with such features as organizing schedules and leading assignments, it will make you easier, So get the application now !</p>
+      </div>
+
+      <div class="order-1 md:order-2 flex justify-end">
+        <img src="./src/image/Image (1).png" alt="notification" class="w-full max-w-2xl rounded-lg bg-blue-50">
+      </div>
+
+   </section>
+
+   <section class="flex flex-col items-center bg-blue-500 justify-center py-8 px-2 rounded-xl mx-8 md:mx-32 shadow-lg text-center">
+      <h2 class=" mt-8 text-white text-xl mx-4 max-w-2xl flex items-center justify-center mb-10 md:text-4xl font-semibold">
+          Download an app now and the various benefits you will get immediately
+      </h2>
+      <div class="flex space-x-4">
+        <button class="text-blue-600 bg-white py-2 px-4 rounded-full shadow-md hover:bg-blue-100">
+            Download App
+        </button>
+        <button class="py-2 px-4 border-white border text-white rounded-full hover:bg-blue-600 ">
+            About App
+        </button>
+
+      </div>
+   </section>
+
+   <section class="grid grid-cols-1 md:grid-cols-2 gap-8 py-12 px-0 items-center">
+    <div class="flex justify-start w-full">
+      <img src="./src/image/Testimonial Img.png" alt="Testimonial" class="w-full max-w-2xl rounded-lg bg-blue-50">
+    </div>
+
+    <div class="w-full px-8 md:px-20 mb-4 self-center items-center">
+      <h2 class="font-bold text-4xl mb-8">What do they think</h2>
+      <img src="./src/image/Profile.png" alt="samantha" class="w-full max-w-xs rounded-sm">
+      <p class="text-gray-500 leading-relaxed mt-5">“ Hi, it’s Samantha. After using it made me a lot of benefits, starting with convenience of setting a deadline of tasks and schedule after that the app is very simple using. “</p>
+      <div class="flex items-center justify-center lg:justify-start space-x-4 mt-10">
+        <a href="#" class="flex items-center transition duration-200 hover:scale-105 mr-1">
+            <img src="./src/image/Vector.png" alt="Left" class="w-8 h-8 hover:opacity-75">
+        </a>
+        <a href="#" class="flex items-center transition duration-200 hover:scale-100 ml-1">
+            <img src="./src/image/Vector (1).png" alt="Right" class="w-8 h-8 hover:opacity-75">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="p-5 bg-white"> 
+    <div class="max-w-screen-lg mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 md:ml-40">
+        <div class="mb-8 md:mb-0">
+          <div class="flex items-center mb-10">
+            <div class="w-8 h-8 flex items-center justify-center mr-2">
+              <img id="About us" src="./src/image/Logo (1).png" alt="logo">
+            </div>
+            <span class="text-xl font-bold">Remind<span class="text-blue-600">me</span></span>
+          </div>
+          <p class="text-gray-600 text-sm">
+            Task deadlines and scheduling applications with various benefits and advantages
+          </p>
+        </div>
+
+        <div class="flex flex-row md:flex-row w-full md:space-x-20 md:ml-20">
+          <!-- Sitemaps -->
+          <div class=" w-full">
+            <h3 class="font-bold text-xl mb-10">Sitemaps</h3>
+            <ul class="space-y-4">
+              <li class="flex items-center space-x-2">
+                <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Home</a></li>
+              <li class="flex items-center space-x-2">
+                <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                <a href="#" class="text-gray-600 hover:text-blue-500">Features</a></li>
+              <li class="flex items-center space-x-2">
+                <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                <a href="#" class="text-gray-600 hover:text-blue-500 ">About Us</a></li>
+            </ul>
+          </div>
+    
+          <!-- Advantages -->
+          <div class="w-full">
+            <h3 class="font-bold text-xl mb-10">Advantages</h3>
+            <ul class="space-y-2">
+              <li class="flex items-center space-x-2 mb-4">
+                <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                <a href="#" class="text-gray-600 hover:text-blue-500 whitespace-nowrap ">Set Task Better</a></li>
+              <li class="flex items-center space-x-2 mb-4">
+                <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                <a href="#" class="text-gray-600 hover:text-blue-500 whitespace-nowrap">Easy Manage</a></li>
+              <li class="flex items-center space-x-2">
+                <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+                <a href="#" class="text-gray-600 hover:text-blue-500 whitespace-nowrap py-1">Get Notification</a></li>
+            </ul>
+          </div>
+        </div>
+
+          <div class="flex flex-col w-full md:items-center md:ml-44">
+              <h3 class=" text-xl font-bold whitespace-nowrap">Follow Us</h3>
+          <div class="flex space-x-6 mt-10">
+              <a href="https://www.facebook.com/" target="_blank" class="text-blue-600">
+                <img src="./src/image/uim_facebook-f.png" alt="facebook" class="w-8 h-8"></a>
+              <a href="https://www.twitter.com/" target="_blank" class="text-blue-600">
+                <img src="./src/image/uim_twitter.png" alt="twitter" class="w-8 h-8"></a>
+              <a href="https://www.linkedin.com/" target="_blank" class="text-blue-600">
+                <img src="./src/image/uim_linkedin-alt.png" alt="linkedin" class="w-8 h-8"></a>
+          </div>
+
+      </div>
+
+    </div>
+  </footer>
+          
+          
+
+
+
+
+ 
+</body>
+</html>
